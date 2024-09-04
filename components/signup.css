@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodytype{
+    
+    justify-content: bottom;
+    padding: 50px;
+    background:  linear-gradient(45deg, rgb(234, 220, 220),#f0e8d2);
+    background-size: cover;
+    background: blur(100px);
+  }
+.search-bar::placeholder{
+  font-size: 12px;
+}
+#email-up::placeholder{
+  font-size: 10px;
+}
+  .containerbox {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 80vh;
+    size: 100px;
+}
+.forms{
+    margin-top: 90px;
+    height: 470px;
+    width: 300px;
+    background-color: rgba(255,255,255,0.13);
+    background: linear-gradient(45deg, rgba(234, 220, 220, 0.674),white);
+    position: absolute;
+    left: 20px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.block{
+  position: relative;
+  left: 10%;
+}
+.block input::placeholder{
+  font-size:10px;
+}
+.sign{
+    position: absolute;
+    left: 35%;
+    top: 10%;
+
+}
+.Create{
+    width: fit-content;
+    padding: 10px 15px 15px 15px;
+    height: 40px;
+    margin: 10px auto;
+    justify-content: center;
+    display: block;
+    color: #fff;
+    background: #162b31;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    font-size: 1em;
+  }
+ 
+.register{
+  border-radius: 10px;
+  width: 80%;
+  height: 30px;
+  border: none;
+  padding-left: 5%;
+}
+input[type=password]{
+  border-radius: 10px;
+  width: 80%;
+  height: 30px;
+  border: none;
+  padding-left: 5%;
+
+  
+}
+input[type=email]{
+  border-radius: 10px;
+  width: 80%;
+  height: 30px;
+  border: none;
+  padding-left: 5%;
+
+  
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  margin-left: -18%;
+}
+
+h2.xyz:before, 
+h2.xyz:after { 
+  content: " "; 
+  flex: 1 1; 
+  border-bottom: 2px solid #000; 
+  margin: 10px;
+} 
+input[type=checkbox]{
+  position: absolute;
+  
+}
+.signin-link {
+  color: #000;
+  text-decoration: none;
+  display: inline; /* Ensure the link is displayed as an inline element */
+  background: none; /* Reset background */
+  border: none; /* Reset border */
+  font-family: inherit; /* Inherit font family */
+  font-size: inherit; /* Inherit font size */
+  cursor: pointer; /* Ensure cursor behaves as expected */
+}
+

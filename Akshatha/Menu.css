@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+ }
+
+header {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+#menuButton {
+    font-size: 24px;
+    cursor: pointer;
+    float: right;
+    color: black;
+    margin-right: 10px;
+}
+#menuCloseButton {
+    font-size: 24px;
+    cursor: pointer;
+    float: left;
+    color: black;
+    margin-left: 10px;
+}
+nav {
+    background-color: #eff1f5;
+    color: #fff;
+    text-align: center;
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+    
+}
+
+.menu-item:hover {
+    background-color: #f8f8f9;
+    transform: scale(1.05);
+}
+
+.menu-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.menu-item a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+}
+.menu-item::before {
+        content: "";
+        display: block;
+        width: 8px; /* Adjust the thickness as needed */
+        background-color: peachpuff;  /* Change to your desired color */
+        position: absolute;
+        height: 100%;
+        left: 0;
+        box-shadow: 5px 0 10px;
+}
+.arrow{
+    margin-left: 70px;
+    color: #333;
+    font-size: x-large;
+}

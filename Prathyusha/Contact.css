@@ -1,0 +1,207 @@
+
+
+/* General styles */
+.body-contact {
+  margin:0;
+  padding: 0;
+  height: 120%;
+  background-image: url('./bgimage.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; /* Use cover to fill the entire background */
+  background-position: 100%;
+  font-family: 'Oswald', sans-serif;
+}
+
+.container-box {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.contact-box {
+  border-radius: 20px;
+  box-shadow: 0 4px 20px black;
+  margin-top: 10px;
+  display: flex;
+  background: white;
+  min-height: 300px; /* Adjust the height as needed */
+}
+
+.card-left {
+  flex-basis: 60%;
+  padding: 40px;
+}
+
+.card-right {
+  border-radius: 20px;
+  flex-basis: 40%;
+  padding: 20px;
+  background: rgb(239, 66, 53);
+  color: white;
+}
+
+.pg {
+  font-size: smaller;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+.input-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  flex-basis: 100%; /* Set to 100% for full width on smaller screens */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+input,
+textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid red;
+  outline: none;
+  padding-bottom: 5px;
+}
+
+.label {
+  margin-bottom: 6px;
+  display: block;
+  color: red;
+}
+#name::placeholder{
+  font-size: 1rem;
+}
+#email::placeholder{
+  font-size: 1rem;
+}
+#phone::placeholder{
+  font-size: 1rem;
+}
+#subject::placeholder{
+  font-size: 1rem;
+}
+.con {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  color: rgb(219, 52, 52);
+  margin-top: 0;
+  
+  
+}
+
+h3 {
+  color: rgb(243, 62, 62);
+  margin-top: 0;
+}
+
+.submit-contact {
+  text-decoration: none;
+  background-color: red;
+  padding: 10px 10px 20px 10px;
+  color: white;
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: 0 7px 12px 0 rgb(61, 59, 59);
+}
+
+.submit:hover {
+  background-color: rgb(241, 71, 71);
+}
+
+.card-left p {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.card-left h3 {
+  font-weight: 600;
+}
+
+.card-right h3 {
+  text-decoration: underline rgb(138, 54, 54);
+  color: rgb(10, 10, 43);
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.contact-left h3 {
+  color: red;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.contact-right h3 {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-location-dot {
+  color: rgb(15, 16, 77);
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.contact-right p {
+  font-size: 50px;
+}
+
+.instagram,
+.twitter,
+.linkedin {
+  /* font-size: 30px; */
+  /* color: white; */
+  margin-top: 0;
+  margin-right: 30px;
+}
+
+.instagram:hover,
+.linkedin:hover,
+.twitter:hover {
+  color: rgb(247, 246, 252);
+}
+
+.icons a {
+  color: white;
+  text-decoration: underline;
+}
+
+.icons {
+  margin-right: 10px;
+}
+
+.envelope,
+.phone,
+.location {
+  margin-right: 20px;
+  margin-bottom: -10px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .container {
+      width: 90%;
+  }
+  .contact-box {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+  .card-left{
+      flex-basis: 100%;
+      margin: 20px 0;
+  }
+  .card-right{
+      width:350px;
+      flex-basis: 100%;
+      margin-bottom: 0px;
+      margin: 0 50px 0px 50px;
+  }
+} 
